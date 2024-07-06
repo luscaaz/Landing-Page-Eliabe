@@ -423,7 +423,7 @@ footer {
  {
 
 .navbar {
-    padding-top: 1rem;
+    padding-top: .5rem;
     padding-bottom: 0;
 }
 
@@ -439,15 +439,15 @@ footer {
 
 .container {
     background-image: url(images/eliabe.png);
-    background-size: 19rem;
+    background-size: 17.5rem;
     background-position: right bottom;
     background-attachment: fixed;
 }
 
 .main {
     padding-left: 1rem;
-    padding-top: 10rem;
-    width: 30rem;
+    padding-top: 5rem;
+    width: 20rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -458,8 +458,8 @@ footer {
 
 .btn {
     display: flex;
-    font-size: 1rem;
-    margin-left: 1.5rem;
+    font-size: .8rem;
+    margin-left: 1rem;
     margin-right: auto;
 }
 
@@ -469,12 +469,11 @@ footer {
 
 
 .sobre-txt {
-    width: 30rem;
+    width: 20rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding-top: .3rem;
-    padding-bottom: 50px;
 }
 
 .sobre-titulo {
@@ -518,38 +517,66 @@ footer {
 #svc1 .svc1-txt-main .svc1-title {
     font-size: 2.5rem;
     padding-top: 3rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#svc1 .svc1-img {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #svc1 .svc1-txt-main .svc1-text {
     font-size: 1.2rem;
     padding-top: 3rem;
-    width: 30rem;
+    width: 20rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 #svc2 .svc2-txt-main .svc2-title {
     font-size: 2.5rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #svc2 .svc2-txt-main .svc2-text {
     font-size: 1.2rem;
     padding-top: 3rem;
-    width: 30rem;
+    width: 20rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5rem;
 }
 
+#svc2 .svc2-img {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #svc3 .svc3-txt-main .svc3-title {
     font-size: 2.5rem;
     padding-top: 3rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #svc3 .svc3-txt-main .svc3-text {
     font-size: 1.2rem;
     padding-top: 3rem;
-    width: 30rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#svc3 .svc3-img {
+    width: 20rem;
+    height: 15rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -566,7 +593,7 @@ footer {
 }
 
 .txt-final-main {
-    width: 30rem;
+    width: 20rem;
 }
 
 .txt-final-title {
@@ -580,7 +607,7 @@ footer {
 }
 
 .txt-final-img {
-    width: 30rem;
+    width: 20rem;
     margin-top: 5rem;
 }
 
