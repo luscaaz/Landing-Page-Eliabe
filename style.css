@@ -113,16 +113,17 @@ nav a:hover {
 
 .container {
     margin-top: 100px;
+    margin-bottom: 0;
     background: url(images/background.png) no-repeat;
     background-attachment: fixed;
     background-position: center right;
-    padding-bottom: 400px;
+    padding-bottom: 350px;
     animation: fadeIn 2s;
 
 }
 
 #sobre {
-    padding: 90px 0;
+    padding: 100px 0;
     background: #3e74361f;
     margin-top: 0px;
     box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
@@ -161,7 +162,7 @@ nav a:hover {
 
 .services-bg {
     background: url(images/top-view-green-leaves.png);
-    background-size: 1930px auto;
+    background-size: auto;
     background-position: bottom;
     background-repeat: no-repeat;
 
@@ -265,8 +266,7 @@ nav a:hover {
 .svc3-img {
     width: 450px;
     height: 350px;
-    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
-    0 5px 15px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11);
     background-color: #ffffff;
     border-radius: 20px;
 }
@@ -352,14 +352,11 @@ nav a:hover {
 
 #txt-final {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 300px;
+    justify-content: center;
     margin-bottom: 150px;
     margin-top: 150px;
-    scroll-margin-top: 14vh;
+
 }
 
 .txt-final-main {
@@ -426,97 +423,170 @@ footer {
  {
 
 .navbar {
-    width: 100%;
-
+    padding-top: 1rem;
+    padding-bottom: 0;
 }
 
-.main {
-    padding-top: 80px;
-}
-
-.main-txt {
-    display: none;
-}
-
-.btn {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    padding: 20px 30px;
-    color: #3b423e8c;
-    margin-left: 40px;
-}
-
-.sobre-txt {
-    width: auto;
-    padding: 0;
-}
-
-.scroll-btn {
-    margin: 50px auto;
-}
-
-#services {
-    padding-top: 20px;
-}
-
-#services div {
-    flex-direction: column;
-    padding-bottom: 30px;
-    text-align: center;
-    height: auto;
-    width: 450px;
-}
-
-.services-title {
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-#svc1, #svc2, #svc3 {
-    margin: 0 auto;
-}
-
-.svc1-img, .svc2-img, .svc3-img {
-    width: 400px;
-}
-
-.svc1-text, .svc2-text, .svc3-text {
-    display: none;
-}
-
-.contato .btn-txt {
-    display: none;
-}
-
-.container {
-    padding-bottom: 200px;
-    background-attachment: scroll;
-    background-size: contain;
-}
-
-#txt-final {
-    flex-direction: column;
-}
-
-#txt-final div {
-    width: 450px;
-    flex-direction: column;
-    padding-bottom: 30px;
-    text-align: center;
-    height: auto;
-    margin-top: 0;
+.logo-img {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-ul {
     display: none;
 }
 
+.container {
+    background-image: url(images/eliabe.png);
+    background-size: 19rem;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+.main {
+    padding-left: 1rem;
+    padding-top: 10rem;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-txt {
+    font-size: 2rem;
+}
+
+.btn {
+    display: flex;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-right: auto;
+}
+
+#sobre {
+    padding: 5rem 0;
+}
+
+
+.sobre-txt {
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: .3rem;
+    padding-bottom: 50px;
+}
+
+.sobre-titulo {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sobre-texto {
+    font-size: 1rem;
+}
+
+#services {
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    scroll-margin-top: 10vh;
+    background-color: #ffffff;
+}
+
+#services .services-title .svc-title-text h3 {
+    margin-top: 0;
+    padding: 0;
+}
+
+#svc1, #svc2, #svc3 {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+#svc2 {
+    margin-top: 5rem;
+}
+
+#svc3 {
+    margin-top: 5rem;
+}
+
+#svc1 .svc1-txt-main .svc1-title {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+
+#svc1 .svc1-txt-main .svc1-text {
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#svc2 .svc2-txt-main .svc2-title {
+    font-size: 2.5rem;
+}
+
+#svc2 .svc2-txt-main .svc2-text {
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+#svc3 .svc3-txt-main .svc3-title {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+
+#svc3 .svc3-txt-main .svc3-text {
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-txt {
+    display: none;
+}
+
+#txt-final {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.txt-final-main {
+    width: 30rem;
+}
+
+.txt-final-title {
+    font-size: 3rem;
+    margin-bottom: .8rem;
+}
+
+.txt-final-text {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.txt-final-img {
+    width: 30rem;
+    margin-top: 5rem;
+}
+
 footer {
-    padding: 5px 20px;
-    font-size: 8px;
+    padding: .5rem;
+    font-size: 0.5rem;
 }
 
 }
